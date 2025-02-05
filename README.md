@@ -29,7 +29,7 @@ The dataset consists of images containing product information, such as dimension
 ### Performance and Results
 - OCR successfully extracted text from the images, and the NER model was able to detect values like weight and dimensions from the extracted text.
 - The output was structured into a CSV file containing the predicted values and their associated units for each image.
-- The results were stored in the `predictions.csv` file, which contains two main columns:
+- The results were stored in the `test_out.csv` file, which contains two main columns:
   - **Index**: A unique identifier for each prediction.
   - **Prediction**: The extracted value and unit for each image.
 - The output was evaluated using metrics like **precision, recall, and the F1 score**. The extraction process showed promising results for images with clear and distinct text but faced challenges with noisy or low-quality images.
